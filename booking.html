@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Details</title>
+  <style>
+    body {
+        /* background-image: url("https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_1280.jpg"); */
+        background-image: url("https://wallpaperaccess.com/full/6661884.jpg");
+        /* background-image: url("https://cdn.wallpapersafari.com/98/8/WJAyRD.jpg"); */
+
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 20px;
+      background-repeat: no-repeat;
+    background-size: cover;
+    }
+    form{
+   width: 100%;
+   max-width: 600px;
+   background: rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   margin-left: 400px;
+   margin-top: 100px;
+   padding: 28px;
+   /* margin: 0 28px; */
+   border: 3px solid white;
+}
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2b1ee6;
+    }
+    footer {
+            padding-top: 5px;
+            text-align: center;
+            width: 100%;
+            height: 60px;
+            background-color: rgb(15, 16, 16);
+            color: white;
+        }
+  </style>
+</head>
+<body >
+
+  <form action="payment.html" method="post" style="color: white;">
+    <h2 style="color: white;" align="center"> Booking Details</h2>
+    
+    <label for="name"><b>Full Name:</b></label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email"><b>Email:</b></label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="phone"><b>Phone Number:</b></label>
+    <input type="tel" id="phone" name="phone" required>
+    <label for="destination"><b>Select Destination:</b></label>
+    <select id="destination" name="destination" required>
+      <option value="" disabled selected>Select Destination</option>
+      <option value="Sree Padmanabhaswamy Temple">Sree Padmanabhaswamy Temple</option>
+      <option value="Chalukudy River">Chalukudy River</option>
+      <option value="Jatayu">Jatayu</option>
+      <option value="Pangong Lake">Pangong Lake</option>
+      <option value="Nubra Valley">Nubra Valley</option>
+      <option value="Diskit Monastery">Diskit Monastery</option>
+      <option value="Reis Magos Fort">Reis Magos Fort</option>
+      <option value="Coco Beach">Coco Beach</option>
+      <option value="Shri Shanta Durga Temple">Shri Shanta Durga Temple</option>
+      <option value="Taj-mahal">Taj-mahal</option>
+      <option value="Fatehpur Sikri">Fatehpur Sikri</option>
+      <option value="Gurudwara Guru Ka Taal">Gurudwara Guru Ka Taal</option>
+    </select>
+    
+    <label for="departure-date"><b>Departure Date:</b></label>
+    <input type="date" id="departure-date" name="departure-date" required>
+    
+    <label for="number-of-adults"><b>Number of Adults:</b></label>
+    <input type="number" id="number-of-adults" name="number-of-adults" min="1" required>
+    <label for="number-of-adults"><b>Number of Children:</b></label>
+    <input type="number" id="number-of-adults" name="number-of-adults" min="1" required >
+    
+    <!-- <label for="number-of-children">Number of Children:</label>
+    <input type="number" id="number-of-children" name="number-of-children" min="0" required> -->
+    
+    <!-- <button type="submit">Book Now</button> -->
+    <button onclick="window.location.href='payment.html';">Book Now</button>
+
+  </form>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,42 @@
+
+.menu{
+    height:100vh;
+    /* background-image:url(traveller.jpg); */
+    background-image: url("https://www.kashmironline.com/blog/wp-content/uploads/2023/01/moutaineering-kahsmir.jpg");
+    /* background-image: url("https://www.metroeverest.com/storage/activities/18/920ecabb05b39462795e94f014d377e7.jpeg"); */
+
+    background-size: cover;
+}
+button{
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 3%;
+    padding: 15px 32px;
+    background-color: white;
+    border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+button:hover{
+    background-color: rgb(11, 148, 216);
+    box-shadow: 5px 5px 5px black;
+}
+h1{
+    padding-top: 35px;
+    margin-top: 0px;
+    font-size: 110px;
+    margin-left: 2%;
+    text-shadow: 3px 3px 3px black;
+    
+}
+p{
+    font-size: 45px;
+    margin: 55px;
+    margin-left: 2%;
+    
+}
+
+
+
+
+   

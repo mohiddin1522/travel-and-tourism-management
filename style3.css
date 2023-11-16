@@ -1,0 +1,75 @@
+.heading {
+    height: 80px;
+    text-align: center;
+    background-color: rgb(50, 210, 246);
+    text-shadow: 4px 4px 4px white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sub {
+    text-align: center;
+    font-size: 30px;
+}
+
+.subt {
+    text-align: center;
+    font-size: 25px;
+}
+
+.states {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.place {
+    height: 585px;
+    width: 425px;
+    background-color: lightgrey;
+    text-align: center;
+    float: left;
+    margin: 10px;
+
+
+}
+
+img {
+    height: 270px;
+    width: 425px;
+}
+
+.state {
+    background-color: lightsteelblue;
+    padding-left: 10%;
+    padding-bottom: 3%;
+}
+
+span {
+    color: cadetblue
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(22, 110, 253);
+
+}
+
+p {
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgba(10, 206, 30, 0.878);
+    box-shadow: 4px 4px 4px black;
+}
+
+.place:hover {
+    box-shadow: 7px 7px 7px gray;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

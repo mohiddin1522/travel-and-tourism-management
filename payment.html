@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 20px;
+        background-image: url("https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_1280.jpg");
+        background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+
+    form{
+   width: 100%;
+   max-width: 600px;
+   background: rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   margin-left: 400px;
+   margin-top: 100px;
+   padding: 28px;
+   /* margin: 0 28px; */
+   border: 3px solid white;
+}
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1a1ee0;
+    }
+    .upi-links {
+      margin-top: 20px;
+    }
+    footer {
+            padding-top: 5px;
+            text-align: center;
+            width: 100%;
+            height: 60px;
+            bottom: 0;
+            margin-top: 300px;
+            background-color: rgb(15, 16, 16);
+            color: white;
+        }
+  </style>
+</head>
+<body>
+
+  <form style="color: white;">
+    <h2>Payment Details</h2>
+    
+    <label for="card-number"><b>*Card Number:</b></label>
+    <input type="text" id="card-number" name="card-number" placeholder="**** **** **** ****" required>
+    
+    <label for="expiry-date"><b>*Expiry Date:</b></label>
+    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YYYY" required>
+    
+    <label for="cvv"><b>CVV:</b>(not mandatory)</label>
+    <input type="text" id="cvv" name="cvv" placeholder="***" required>
+    
+    <!-- <button type="submit">Make Payment</button> -->
+    <button onclick="window.location.href='success.html';">Make Payment</button>
+    
+  </form>
+
+  <footer>
+    <p>A1 Travel and tourism &copy; All rights reserved. for any queries contact us
+        <span>a1tourism@gmail.com</span>
+    </p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="forms">
+        <form>
+            <div class="form-group">
+                <h1>Registration Form</h1>
+                <label for="username"><b>Name:</b></label>
+                <input class="labe" type="text" id="username" name="name" required autocomplete="given-name">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="usermail"><b>Email:</b></label>
+                <input class="labe" type="text" id="usermail" name="mail" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="usermobile"><b>Mobile:</b></label>
+                <input class="labe" type="text" id="usermobile" name="mobile" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="userpass"><b>Set password:</b></label>
+                <input class="labe" type="password" name="password" id="userpass" required>
+            </div>
+            <br>
+            <div class="btn-group">
+                <button onclick="window.location.href='home.html';" type="submit" id="submit">REGISTER</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

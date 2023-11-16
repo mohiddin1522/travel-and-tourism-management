@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style3.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>A1 Travel and Tourism</title>
+    <style>
+        nav {
+            width: 100%;
+            height: 15vh;
+            font-family: 'Times New Roman', Times, serif;
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(238, 152, 120, 0.691841702501313) 35%, rgba(0, 212, 255, 1) 100%);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .menu {
+            width: 50%;
+            /* Adjust the width to your preference */
+            font-weight: bold;
+            display: flex;
+            justify-content: space-around;
+            /* Use space-around to evenly distribute the items */
+            align-items: center;
+            height: 100%;
+            /* Set a fixed height for each item */
+        }
+
+        /* nav .menu a {
+            font-size: 3vh;
+            width: 25%;
+            color: black;
+            font-size: 22px;
+            text-decoration: none;
+        } */
+        nav .menu a {
+            color: white;
+            text-decoration: none;
+            height: 100%;
+            /* Set a fixed height for each item */
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+            /* Adjust padding for spacing */
+            font-size: 24px;
+            /* Adjust font size */
+        }
+
+        nav .menu a:hover {
+            text-decoration: underline;
+
+            color: rgb(9, 93, 178);
+        }
+
+        nav div h1 {
+            color: white;
+            text-shadow: 9px 9px 30px rgb(230, 221, 221);
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 800;
+            font-size: 50px;
+        }
+
+        footer {
+            padding-top: 5px;
+            text-align: center;
+            width: 100%;
+            height: 60px;
+            background-color: rgb(15, 16, 16);
+            color: white;
+        }
+
+        .log {
+            height: 35px;
+            width: 100px;
+            margin-right: 15px;
+            border-radius: 10px;
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1 style="margin-left: 50px;">A1 Travel & Tourism&#9992</h1>
+            </div>
+            <div class="menu">
+                <a href="Home.html">Home</a>
+                <a href="Destination.html">Destinations</a>
+                <a href="Packages.html">Packages</a>
+                <a href="project4.html">About us</a>
+                <button class="log" onclick="window.location.href='register.html';">Logout</button>
+
+            </div>
+        </nav>
+    </header>
+    <div class="heading">
+        <h1>
+            PACKAGES
+        </h1>
+    </div>
+    <h1 class="sub">
+        Our Packages..
+    </h1>
+    <p class="subt">
+        Once a year go someplace you've never been before
+    </p>
+
+    <div class="state">
+        <h1 class="states"><b>Kerala</b></h1>
+
+        <div class="place">
+            <img src="padmanabhaswamy.jpg" alt="">
+            <h1>Sree Padmanabhaswamy Temple</h1>
+
+            <p>
+                RS:<span><b>15000</b></span> per peron
+            </p>
+            <p class="tax">
+                (inclusive of all taxes)
+            </p>
+
+            <button onclick="window.location.href='booking.html';"><b style="color: white;">Book Now</b></button>
+
+
+
+        </div>
+        <div class="place">
+            <img src="river.jpeg" alt="">
+            <h1>Chalukudy River</h1>
+
+            <p>
+                RS:<span><b>25000</b></span> per peron
+            </p>
+            <p class="tax">
+                (inclusive of all taxes)
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="window.location.href='booking.html';"><b style="color: white;">Book Now</b></button>
+
+
+        </div>
+        <div class="place">
+            <img src="jatayu.jpg" alt="">
+            <h1>Jatayu</h1>
+
+            <p>
+                RS:<span><b>10000</b></span> per peron
+            </p>
+            <p class="tax">
+                (inclusive of all taxes)
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="window.location.href='booking.html';"><b style="color: white;">Book Now</b></button>
+
+
+
+        </div>
+
+    </div>
+    <div class="state">
+        <h1 class="states"><b>Ladakh</b></h1>
+
+        <div class="place">
+            <img src="Pangong-lake.jpg" alt="">
+            <h1>Pangong Lake</h1>
+
+            <p>
+                RS:<span><b>30000</b></span> per peron
+            </p>
+            <p class="tax">
+                (inclusive of all taxes)
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="window.location.href='booking.html';"><b style="color: white;">Book Now</b></button>
+
+
+
+        </div>
+        <div class="place">
+            <img src="Nubra-Valley.webp" alt="">
+            <h1>Nubra Valley</h1>
+
+            <p>
+                RS:<span><b>25000</b></span> per peron
+            </p>
+            <p class="tax">
+                (inclusive of all taxes)
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="window.location.href='booking.html';"><b style="color: white;">Book Now</b></button>
+
+
+
+        </div>
+        <div class="place">
+            <img src="diskit-monsatery3.jpg" alt="">
+            <h1>Diskit Monastery</h1>
+
+            <p>
+                RS:<span><b>20000</b></span> per peron
+            </p>
+            <p class="tax">
+                (inclusive of all taxes)
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="window.location.href='booking.html';"><b style="color: white;">Book Now</b></button>
+
+
+
+        </div>
+
+    </div>
+    <div class="state">
+        <h1 class="states"><b>Goa</b></h1>
+
+        <div class="place">
+            <img src="Reis Magos Fort.jpg" alt="">
+            <h1>Reis Magos Fort</h1>
+
+            <p>
+                RS:<span><b>10000</b></span> per peron
+            </p>
+            <p class="tax">
+                (inclusive of all taxes)
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="window.location.href='booking.html';"><b style="color: white;">Book Now</b></button>
+
+
+
+        </div>
+        <div class="place">
+            <img src="coco.jpg" alt="">
+            <h1>Coco Beach</h1>
+
+            <p>
+                RS:<span><b>15000</b></span> per peron
+            </p>
+            <p class="tax">
+                (inclusive of all taxes)
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="window.location.href='booking.html';"><b style="color: white;">Book Now</b></button>
+
+
+
+        </div>
+        <div class="place">
+            <img src="shantadurga-temple-kavlem-ponda-goa.webp" alt="">
+            <h1>Shri Shanta Durga Temple</h1>
+
+            <p>
+                RS:<span><b>17000</b></span> per peron
+            </p>
+            <p class="tax">
+                (inclusive of all taxes)
+            </p>
+            <br>
+            <br>
+            <button onclick="window.location.href='booking.html';"><b style="color: white;">Book Now</b></button>
+
+
+
+        </div>
+
+    </div>
+    <div class="state">
+        <h1 class="states"><b>Agra</b></h1>
+
+        <div class="place">
+            <img src="taj-mahal.webp" alt="">
+            <h1>Taj-mahal</h1>
+
+            <p>
+                RS:<span><b>25000</b></span> per peron
+            </p>
+            <p class="tax">
+                (inclusive of all taxes)
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="window.location.href='booking.html';"><b style="color: white;">Book Now</b></button>
+
+
+
+        </div>
+        <div class="place">
+            <img src="sikri.jpg" alt="">
+            <h1>Fatehpur Sikri</h1>
+
+            <p>
+                RS:<span><b>17000</b></span> per peron
+            </p>
+            <p class="tax">
+                (inclusive of all taxes)
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="window.location.href='booking.html';"><b style="color: white;">Book Now</b></button>
+
+
+
+        </div>
+        <div class="place">
+            <img src="taal.jpg" alt="">
+            <h1>Gurudwara Guru Ka Taal</h1>
+
+            <p>
+                RS:<span><b>19000</b></span> per peron
+            </p>
+            <p class="tax">
+                (inclusive of all taxes)
+            </p>
+            <br>
+            <br>
+            <button onclick="window.location.href='booking.html';"><b style="color: white;">Book Now</b></button>
+
+
+
+        </div>
+
+    </div>
+    <footer>
+        <p>A1 Travel and Tourism &copy; All rights reserved. for any queries contact us <span>a1tourism@gmail.com</span>
+        </p>
+    </footer>
+
+</body>
+
+</html>

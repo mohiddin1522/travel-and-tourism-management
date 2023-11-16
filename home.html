@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Travel & Tourism</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<style>
+   *{  
+        padding: 0px;
+        margin:0px;
+        box-sizing:border-box;
+    }
+    body{
+
+      background-color:rgb(138, 180, 234);
+    }
+   
+    header{
+        width:100%;
+        height:50vh;
+        background-image:url(https://www.tourism-of-india.com/images/home/home-banner.jpg);
+        background-size: 100% 100%;
+    }
+    nav div h1{
+        color:white;
+        text-shadow:9px 9px 30px rgb(230, 221, 221);
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 800;
+        font-size:50px;
+    }
+    h1
+   {
+      font-weight:500;
+      text-align:center;
+      font-family:'Times New Roman', Times, serif;
+  }
+    nav {
+    width: 100%;
+    height: 15vh;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(238, 152, 120, 0.691841702501313) 35%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    nav .menu {
+    width: 50%; /* Adjust the width to your preference */
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around; /* Use space-around to evenly distribute the items */
+    align-items: center;
+    height: 100%; /* Set a fixed height for each item */
+}
+    nav .menu a {
+    color: white;
+    text-decoration: none;
+    height: 100%; /* Set a fixed height for each item */
+    display: flex;
+    align-items: center;
+    padding: 0 10px; /* Adjust padding for spacing */
+    font-size: 24px; /* Adjust font size */
+}
+
+    nav .menu a:hover {
+      text-decoration: underline;
+    color: rgb(25, 5, 149);
+}
+    h3{ 
+        text-shadow:4px 4px 0px white;
+        font-family:'Times New Roman', Times, serif;
+        font-weight:900;
+    }
+    
+   .s{
+       color:white;
+       font-weight:bolder;
+       font-size:20px;
+       background-size: cover; 
+       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(153,153,208,1) 35%, rgba(0,212,255,1) 100%);
+    }
+   .s h1
+    {
+       color:black;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       text-decoration:underline;
+    }
+    p
+   {
+    text-align:center;
+    font-style: italic;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+    section{
+        margin-top: 200px;
+        text-align: center;
+        font-weight: bolder; 
+        /* background: linear-gradient(90deg, rgb(214, 103, 12) 0%, rgba(242, 245, 246, 0.692) 35%, rgb(36, 232, 19) 100%); */
+    }
+    section:hover{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(238,152,120,0.691841702501313) 35%, rgba(0,212,255,1) 100%);
+    }
+    section h2
+   { 
+      font-weight: 600;
+      color: #969600;
+      text-shadow:2px 4px 2px rgb(30, 28, 28);
+   }
+  section h4{
+
+      background-color:lightsteelblue;
+      font-family:'Times New Roman', Times, serif;
+   }
+  .o 
+   {
+       background-image: url(https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+       background-size: cover;
+       position: relative;
+   }
+  .overlay 
+   {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color:rgba(255,255,255,0.5);
+      backdrop-filter: blur(1px);
+   }
+ 
+  .row
+  {
+       display: flex;
+  }
+  .column 
+  {
+     flex: 33.33%;
+     padding: 5px;
+  } 
+   .carsoule
+   {
+    height:900px;
+    width:900px;
+   }
+  .carousel-item img 
+  {
+     position: absolute;
+     object-fit: cover;
+     min-width:300px;
+     min-height:300px;
+ }
+
+        footer {
+            padding-top: 5px;
+            text-align: center;
+            width: 100%;
+            height: 60px;
+            background-color: rgb(15, 16, 16);
+            color: white;
+        }
+        span{
+            color: red;
+        }
+.log{
+          height: 35px;
+          width: 100px;
+          margin-right: 15px;
+          border-radius: 10px;
+          background-color: blue;
+          color: white;
+        }
+
+        button:hover{
+          background-color: rgba(210, 11, 11, 0.878);
+        }
+       
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1 style="margin-left: 50px;">A1 Travel & Tourism&#9992</h1>
+            </div>
+            <div class="menu">
+               <a href="Home.html">Home</a>
+               <a href="Destination.html">Destinations</a>
+               <a href="Packages.html">Packages</a>
+               <a href="aboutus.html">About us</a>
+               <button class="log" onclick="window.location.href='register.html';"><b>Logout</b></button>
+            </div>
+        </nav>
+        <h3 style="margin-left: 30px;">EXPLORE THE WORLD</h3>
+    </header>
+<div class="s">
+  <h1>India Tour & Holiday Packages</h1>
+      <p>A kaleidoscope of traditions, culture, and vibrant geographies, India speaks for itself as a soul-stirring journey. Snow-covered peaks of the Himalayas stretch of coastline, natural greenery to depths of spirituality, and clusters of cultural shades. All of these aspects join together to define the raw beauty through which India captures the heart of every tourist. Discover the different facets of this multicolored country as it shapes your vision at every fold. With the country's tourism branched into several forms, India has a chunk for every kind of traveler. To get things going, here is an India travel planner which incorporates must-visit tourist attractions, places to visit in India, how to reach, and the best time to visit.
+      </p>
+</div>
+ <section class="container">
+    <h2>Start your vacation<br> with lots of services</h2>
+      <div class="south">
+        <h4>SOUTH INDIA TOURS</h4>
+        <div class="row">
+          <div class="column">
+           <img src="https://media.istockphoto.com/id/520077337/photo/houseboat-on-kerala-backwaters-india.jpg?s=612x612&w=0&k=20&c=H5X25NYoRcvXzGHRnR57x8QsWVyNcPJBy2vgSMlskz0=" alt="Snow" style="width:100%">
+             <p>KERALA</p>
+          </div>
+          <div class="column">
+            <img src="https://www.holidify.com/images/bgImages/COORG.jpg" alt="Forest" style="width:100%">
+             <p>COORG</p>
+           </div>
+          <div class="column">
+            <img src="https://images.pexels.com/photos/5480518/pexels-photo-5480518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mountains" style="width:100%">
+             <p>Mysore palace</p>
+          </div>
+        </div>
+            <img src="https://e0.pxfuel.com/wallpapers/1001/521/desktop-wallpaper-charminar.jpg" height="300px">
+              <p>CHARMINAR</p>
+     </div>
+     <br>
+
+      <div class="north">
+        <h4>NORTH INDIA TOURS</h4>
+        <div class="row">
+           <div class="column">
+             <img src="https://images.unsplash.com/photo-1536295243470-d7cba4efab7b?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhZGFraHxlbnwwfHwwfHx8MA%3D%3D" alt="Snow" style="width:100%">
+               <p> Ladakh</p>
+           </div>
+          <div class="column">
+            <img src="https://images.unsplash.com/photo-1609947017136-9daf32a5eb16?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z29sZGVuJTIwdGVtcGxlfGVufDB8fDB8fHww" alt="Forest" style="width:100%">
+              <p>Golden Temple</p>
+          </div>
+          <div class="column">
+            <img src="https://www.holidify.com/images/bgImages/NORTH-SIKKIM.jpg" alt="Mountains" style="width:100%">
+             <p>Sikkim</p>
+            </div>
+           
+          </div>
+            <img src="https://www.holidify.com/images/compressed/attractions/attr_1580.jpg" height="300px">
+              <p>JAMA MASJID</p>
+      </div>
+      <div class="east">
+        <h4>EAST INDIA TOURS</h4>
+        <div class="row">
+          <div class="column">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/victoria-memorial-3052473_960_720_20190312144747.jpg" alt="Snow" style="width:100%">
+           <p>Victoria Memorial Hall</p>
+          </div>
+          <div class="column">
+            <img src="https://www.holidify.com/images/bgImages/SHILLONG.jpg" alt="Forest" style="width:100%">
+            <p>Shillong</p>
+          </div>
+          <div class="column">
+            <img src="https://www.holidify.com/images/compressed/dest_pixa_6224.jpg" alt="Mountains" style="width:100%">
+            <p> Darjeeling</p>
+          </div>
+        </div>
+            <img src="https://c4.wallpaperflare.com/wallpaper/801/130/433/kolkata-howrah-bridge-wallpaper-preview.jpg" height="300px">
+            <p>HOWRAH BRIDGE</p> 
+      </div> 
+
+
+   <div class="west">
+        <h4>WEST INDIA TOURS</h4>
+        <div class="row">
+            <div class="column">
+              <img src="https://www.holidify.com/images/bgImages/JODHPUR.jpg" alt="Snow" style="width:100%">
+               <p>Jodhpur</p>
+            </div>
+            <div class="column">
+              <img src="https://media.istockphoto.com/id/510795912/photo/india-gate.jpg?s=612x612&w=0&k=20&c=kZkdrEDXEtoLK6Qh8XPywc9VYV95mJXXcWLBxHftN_U=" alt="Forest" style="width:100%">
+               <p>India gate</p>
+            </div>
+            <div class="column">
+              <img src="https://media.istockphoto.com/id/515706600/photo/ajanta-caves-india.jpg?s=612x612&w=0&k=20&c=tYG0oCCNOpYgoQ-6QTkGw7s4GWGkIqkzJGF3B7wcB2E=" alt="Mountains" style="width:100%">
+              <p>Ajantha caves</p>
+            </div>
+        </div>
+            <img src="https://images.unsplash.com/photo-1581892197913-fd2e407e698a?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z29hfGVufDB8fDB8fHww" height="300">
+            <p>GOA</p>
+          </div>
+    </section>
+
+  <div class="o">
+    <div class="overlay">
+    </div>
+    <div class="carousel">
+      <h1>Most Popular Destinations</h1>
+      <a href="#one" class="carousel-item">
+        <img src="https://images.pexels.com/photos/12460246/pexels-photo-12460246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="200px" width="500px">
+      </a>
+      <a href="#one" class="carousel-item">
+        <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/agra-taj-mahal.jpg" height="200px">
+      </a>
+      <a href="#one" class="carousel-item">
+        <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/Kerala-Houseboat-in-backwater-of-Kerala.jpg" height="200px">
+      </a>
+      <a href="#one" class="carousel-item">
+        <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/sikkim-tourism.jpg" height="200px">
+      </a>
+      <a href="#one" class="carousel-item">
+        <img src="https://ajmerdargahsharif.com/img/about-ajmer-dargah.jpg" height="200px">
+      </a>
+    </div>
+  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script type="text/javascript">
+     $(document).ready(function(){
+       $('.carousel').carousel({
+          indicators:true
+       });
+     });
+     </script>
+<footer>
+  <p>A1 Travel and tourism &copy; All rights reserved. for any queries contact us <span>a1tourism@gmail.com</span></p>
+</footer>
+</body>
+</html>
